@@ -1,5 +1,9 @@
 name: Azure Static Web Apps CI/CD
 
+app_location: 'react-app' # App source code path
+api_location: 'api' # Api source code path - optional
+output_location: 'build' # Built app content directory - optional
+
 on:
   push:
     branches:
